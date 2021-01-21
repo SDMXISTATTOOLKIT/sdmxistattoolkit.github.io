@@ -1,0 +1,68 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: What is the ISTAT Statkit
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: ISTAT Statkit building blocks
+      url: /mydoc_introduction.html
+      output: web, pdf
+
+    - title:  Meta&Data Manager features
+      url: /mydoc_MDM_pages.html
+      output: web, pdf
+    - title:  Data Browser features
+      url: /mydoc_DB_pages.html
+      output: web, pdf
+        
+    
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: Meta&Data manager
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: Data Browser
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+  - title: Installation
+    output: web, pdf
+    folderitems:
+
+    - title: Meta&Data manager
+      url: /mydoc_about_ruby_gems_etc.html
+      output: web, pdf
+
+    - title: Data Browser
+      url: /mydoc_install_jekyll_on_mac.html
+      output: web, pdf
+
+  - title: Tutorials
+    output: web, pdf
