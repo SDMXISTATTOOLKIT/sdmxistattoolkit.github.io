@@ -52,7 +52,7 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-  - title: Installation
+  - title: Manuals
     output: web, pdf
     folderitems:
 
@@ -63,6 +63,16 @@ entries:
     - title: Data Browser
       url: /mydoc_install_jekyll_on_mac.html
       output: web, pdf
-
-  - title: Tutorials
+ 
+  - title: Software
     output: web, pdf
+    folderitems:
+
+    - title: Meta&Data manager
+      url: /mydoc_MDM_Software.html
+      output: web, pdf
+
+    - title: Data Browser
+      url: /mydoc_DB_Software.html
+      output: web, pdf
+
