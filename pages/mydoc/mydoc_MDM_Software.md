@@ -1,22 +1,15 @@
 ---
-title: Meta&Data manager Tutorials
+title: Meta&Data manager Software
 keywords: tutorials,guidelines,use cases
 last_updated: July 16, 2016
-summary: "In this section are available tutorials for installing,configuring and using the Meta&Data Manager tool for statistical data and metadata dissemination and reporting"
+summary: "In this section is possible to download the software packages of the Meta&Data manager tool"
 sidebar: mydoc_sidebar
-permalink: mydoc_MDM_Software
+permalink: mydoc_MDM_Software.html
 folder: mydoc
 ---
 
-### 1. Installation, Configuration and Users management guide
-Brief guide on how to install and configure the Meta&Data Manager tool<br>
-[Download](./Tutorials/01_MDM_Installation+Configuration+Users management.zip)
-<br>
-### 2. Modelling statistical tables through the Meta&Data manager: the "Industrial Turnover" use case
-Practical tutorial on how to model a statistical multidimensional table based on the "Industrial Turnover" survey use case
-[Download](./Tutorials/02_MDM_Modelling_statistical_table_TURNOVER.zip)
-<br>
-### 3. Disseminating statistical tables through the Meta&Data manager: the "Industrial Turnover" use case
-Practical tutorial on how to disseminate statistical multidimensional tables based on the "Industrial Turnover" survey use case
-[Download](./Tutorials/03_MDM Disseminating_statistical table_TURNOVER.zip)
-<br>
+
+| Version | Release date |||
+|-------------|-------------|-------------|-------------|
+| **1.5.1** | 2020 December, 3| [Download](./Software/MDM_V1.5.1_02-12-2020.zip) | [Release notes](./mydoc_release_notes_60.html#version-151-release-date-december-03-2020) |
+

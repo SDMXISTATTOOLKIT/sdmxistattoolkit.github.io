@@ -1,14 +1,14 @@
 ---
-title: Data Browser Tutorials
+title: Data Browser Software
 keywords: tutorials,guidelines,use cases
 last_updated: July 16, 2016
-summary: "In this section are available tutorials for installing,configuring and using the data browser"
+summary: "In this section is possible to download the software packages of the Meta&Data manager tool"
 sidebar: mydoc_sidebar
-permalink: mydoc_DB_Software.hml
+permalink: mydoc_DB_Software.html
 folder: mydoc
 ---
 
-### 1.Quick installation guide
-Brief guide on how to install and configure the DataBrowser tool <br>
-[Download](./Tutorials/01_DataBrowser_Quick_installation manual.zip)<br>
-<br>
+
+| Version | Release date |||
+|-------------|-------------|-------------|-------------|
+| **1.1.1** | 2020 December, 3| [Download](./Software/databrowser_v1.1.1_03-12-2020.zip) | [Release notes](./mydoc_release_notes_50.html#version-111-release-date-december-03-2020) |

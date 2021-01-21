@@ -32,13 +32,6 @@ entries:
       url: /mydoc_introduction.html
       output: web, pdf
 
-    - title:  Meta&Data Manager features
-      url: /mydoc_MDM_pages.html
-      output: web, pdf
-    - title:  Data Browser features
-      url: /mydoc_DB_pages.html
-      output: web, pdf
-        
     
   - title: Release Notes
     output: web, pdf
@@ -64,6 +57,7 @@ entries:
       url: /mydoc_install_jekyll_on_mac.html
       output: web, pdf
  
+  
   - title: Software
     output: web, pdf
     folderitems:
@@ -76,3 +70,15 @@ entries:
       url: /mydoc_DB_Software.html
       output: web, pdf
 
+  - title: Tutorials
+    output: web, pdf
+    folderitems:
+
+    - title: Meta&Data manager
+      url: /mydoc_MDM_Tutorials.html
+      output: web, pdf
+
+    - title: Data Browser
+      url: /mydoc_DB_Tutorials.html
+      output: web, pdf
+     
