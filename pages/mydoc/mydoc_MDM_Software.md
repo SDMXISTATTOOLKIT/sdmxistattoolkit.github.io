@@ -11,5 +11,5 @@ folder: mydoc
 
 | Version | Release date |||
 |-------------|-------------|-------------|-------------|
-| **1.5.1** | 2020 December, 3| [Download](./Software/MDM_V1.5.1_02-12-2020.zip) | [Release notes](./mydoc_release_notes_60.html#version-151-release-date-december-03-2020) |
+| **1.5.1** | 2020 December, 3| [Download](./Software/MDM_V1.5.1_03-12-2020.zip) | [Release notes](./mydoc_release_notes_60.html#version-151-release-date-december-03-2020) |
 

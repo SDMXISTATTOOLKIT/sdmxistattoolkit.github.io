@@ -32,10 +32,10 @@ entries:
       url: /mydoc_introduction.html
       output: web, pdf
 
-  - title: Licence and Disclaimer
+  - title: License and Disclaimer
     output: web, pdf
     folderitems:
-     - title: Licence and Disclaimer 
+     - title: License and Disclaimer 
        url: /mydoc_licence_disclaimer.html
        output: web, pdff
     

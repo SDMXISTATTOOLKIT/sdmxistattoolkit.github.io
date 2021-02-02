@@ -5,7 +5,7 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/SDMXISTATTOOLKIT
-    - title: Licence and disclaimer
+    - title: License and disclaimer
       url: /mydoc_licence_disclaimer.html
     - title: News
       url: /news
