@@ -1,5 +1,5 @@
 ---
-title: Licence and Disclaimer
+title: License and Disclaimer
 sidebar: mydoc_sidebar
 permalink: mydoc_licence_disclaimer.html
 folder: mydoc
