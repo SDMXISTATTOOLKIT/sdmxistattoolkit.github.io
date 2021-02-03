@@ -11,4 +11,4 @@ folder: mydoc
 
 | Version | Release date |||
 |-------------|-------------|-------------|-------------|
-| **1.2.10** | 2018 October, 15| [Download](./Software/EXCEL2CSV_v1.2.10_15-10-2018.zip) | [Release notes](./https://sdmxistattoolkit.github.io/mydoc_Excel2csv_release_notes.html#version-1210-release-date-october-15-2018) |
+| **1.2.10** | 2018 October, 15| [Download](./Software/EXCEL2CSV_v1.2.10_15-10-2018.zip) | [Release notes](./mydoc_Excel2csv_release_notes.html#version-1210-release-date-october-15-2018) |
