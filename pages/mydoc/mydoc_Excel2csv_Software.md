@@ -2,7 +2,7 @@
 title: Excel2csv Software
 keywords: tutorials,guidelines,use cases
 last_updated: July 16, 2016
-summary: "In this section is possible to download the software packages of the Meta&Data manager tool"
+summary: "In this section is possible to download the software packages of the Excel2csv tool"
 sidebar: mydoc_sidebar
 permalink: mydoc_Excel2csv_Software.html
 folder: mydoc
