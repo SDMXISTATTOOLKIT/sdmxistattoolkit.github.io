@@ -50,6 +50,11 @@ entries:
     - title: Data Browser
       url: /mydoc_release_notes_50.html
       output: web, pdf
+      
+    - title: Excel2csv
+      url: /mydoc_Excel2csv_release_notes.html
+      output: web, pdf
+
 
   - title: Manuals
     output: web, pdf
@@ -61,6 +66,10 @@ entries:
 
     - title: Data Browser
       url: /mydoc_install_jekyll_on_mac.html
+      output: web, pdf
+      
+    - title: Excel2csv
+      url: /mydoc_Excel2csv_Manuals.html
       output: web, pdf
  
   
@@ -74,6 +83,10 @@ entries:
 
     - title: Data Browser
       url: /mydoc_DB_Software.html
+      output: web, pdf
+      
+    - title: Excel2csv
+      url: /mydoc_Excel2csv_Software.html
       output: web, pdf
 
   - title: Tutorials
