@@ -2,11 +2,60 @@
 title: Meta&Data Manager Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: December 03, 2020
+last_updated: January 29, 2021
 sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+
+## Version 1.5.2 (Release date: January 29, 2021)
+
+MDM v.1.5.2 (.NET CORE 3.1.0) <br>
+Release Date: 29 January 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.1 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-9 - Error message while trying to connect to a not-available web service <br>
+ISTAT-15 - Advanced filters - manage filters on time period with a range <br>
+ISTAT-80 - CompareDSD now available also for anonymous user (if properly set in configuration) <br>
+ISTAT-83 - Upgrade DSD - bug on preview codelist's details <br>
+ISTAT-84 - App Configuration: removed 'Prepared' field from Default Header Submit Structure <br>
+ISTAT-86 - Compare itemschemes from file: corrected bug on itemscheme's preview <br>
+ISTAT-100 - Buttons for 'Clone' and 'Export on Remote Ws' for MSD and HCL <br>
+ISTAT-103 - Different number of items between Simple and Advanced filters <br>
+ISTAT-191 - Layout Annotations (General Parameters) - Added 'Include annotations' option <br>
+ISTAT-314 - Fix on not allowing the import of a concept scheme referencing a not final artefact <br>
+ISTAT-317 - Dataflow Builder - Download: option allDimensions at observation level and possibility to specify dimensions at observation level also for sdmx-json format <br>
+ISTAT-322 - Default layout annotation: only available codes in the dataflow are now shown <br>
+ISTAT-354 - Added ID in confirmation popups <br>
+ISTAT-401 - Fix on uploading files with special characters <br>
+ISTAT-411 - Default Category Scheme Management: possibility to move a category to its parent level <br>
+ISTAT-411 - Default Category Scheme Management: disabled ID field while updating a category <br>
+ISTAT-412 - MDM manual updated <br>
+ISTAT-417/a - Import Attribute File: added report on wrong references for coded attributes <br>
+ISTAT-417/c - Warning for attributes with attachment level Series or Group linked to TimePeriod (not supported yet) <br>
+ISTAT-418 - Filter, simple mode: bug on obs_value and time period  <br>
+ISTAT-419 - Fix on filters on Time-Period in Advanced mode  <br>
+ISTAT-429 - Support for download DDBDataflow with filter in POST: still not supported in MA WS  <br>
+ISTAT-431 - Dataflow Builder: attributes cannot be selected in filters for SDMX formats  <br>
+ISTAT-434 - Possibility to return to the Home from 'Select Default Category Scheme' popup  <br>
+ISTAT-445 - Loader: Fix on upload SDMX-ML data file without frequency dimension  <br>
+ISTAT-476 - Merge itemscheme: fix when result itemscheme has a multilanguage name  <br>
+ISTAT-478 - Wrong message while uploading csv in cube with tid and dataset level attributes  <br>
+ISTAT-479 - Empty cube: table AttNoCode@XX is not truncated  <br>
+ISTAT-485 - Fix on refresh endpoint when creating a virtual dataflow  <br>
+ISTAT-486 - Hidden not available annotation for virtual and linked dataflows  <br>
+ISTAT-489 - Reset DDB: also dataset are now deleted from the MSDB  <br>
+ISTAT-495 - Minor fixes on Update Data Browser Cache (push mode)  <br>
+ISTAT-496 - Bug on blank AttachedDataFile annotations  <br>
+ISTAT-503 - Derived Item Schemes: enlarged search box  <br>
+ISTAT-504 - Local fix on accessing Eurostat's DSDs in a specific format  <br>
+ISTAT-530 - AttributeFile - Bug for SqlServer version 2012  <br>
 
 ## Version 1.5.1 (Release date: December 03, 2020)
 
