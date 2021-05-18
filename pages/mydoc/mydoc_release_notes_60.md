@@ -8,6 +8,142 @@ permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
 
+## Version 1.5.6 (Release date: April 23, 2021)
+MDM v.1.5.6 (.NET CORE 3.1.0) <br>
+Release Date: 23 April 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-650 - Error while inserting data in a cube with TID and at least an attribute at dataset-level <br>
+ISTAT-651 - Impossible to save a virtual (linked) dataflow after having added layout annotations <br>
+Referential Metadata Module has been excluded from this version <br>
+
+## Version 1.5.5 (Release date: April 15, 2021)
+
+MDM v.1.5.5 (.NET CORE 3.1.0) <br>
+Release Date: 15 April 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-592 - Duplicate artefact: annotation order is not maintained anymore also on codelists <br>
+ISTAT-623 - Category Schemes and Dataflow: error message when trying to move a dataflow under a category where it is already categorised <br>
+ISTAT-628 - Bug when entering an ID if characters are inserted in the middle of the string <br>
+ISTAT-629 - Fix generate transcodings for dataflow from a cube with tid <br>
+ISTAT-639/a - Possibility to enter empty password in Data Browser configuration <br>
+ISTAT-639/b - Wrong message while trying to update Data Browser cache wrongly configurated <br>
+ISTAT-648 - Export in other WS: fix on check on credentials <br>
+Referential Metadata Module has been excluded from this version <br>
+
+## Version 1.5.4 (Release date: April 15, 2021)
+
+MDM v.1.5.4 (.NET CORE 3.1.0) <br>
+Release Date: 10 March 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+- Improved performances on referential metadata in the case of many reports <br>
+
+
+## Version 1.5.3 (Release date: February 26, 2021)
+
+MDM v.1.5.3 (.NET CORE 3.1.0) <br>
+Release Date: 26 February 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-76  - Codelist: urn field is now saved correctly <br>
+ISTAT-87  - More explicit error while trying to upload a file already loaded from the file system that has been modified <br> 
+ISTAT-197 - Import Default Category Scheme from MSDB: now the order of categories is maintained <br>
+ISTAT-198 - Slow typing in forms to create/modify items of itemscheme <br>
+ISTAT-204 - TimePeriod is now supported in Content Constraint <br>
+ISTAT-320 - Slow typing when updating concept schemes and in some other cases <br>
+ISTAT-332 - Bug when entering an ID if characters are inserted in the middle of the string <br>
+ISTAT-442 - Dataflow builder: 'Show categorisations' button now mantain the order among categorisations <br>
+ISTAT-474 - MergeCategorySchemes: fixed bug on duplicated categories in the merged artefact <br>
+ISTAT-484 - Dataflow Builder: bug while searching in category schemes <br>
+ISTAT-502 - Filters: bug on available codes retrieved from the whole cube  instead from the dataflow <br>
+ISTAT-528 - Builder: while creating manually a new Default Category Scheme permissions on categories are now assigned automatically <br>
+ISTAT-568 - Managing only-file dataflow with virtual DSD <br>
+ISTAT-569 - Loading: Error message for attributes linked to TimePeriod <br>
+ISTAT-571 - SMTP Mail provider - password field is now encrypted <br>
+ISTAT-591 - DSD: bug on getting details with AllCompleteStub parameter set to true <br>
+ISTAT-592 - Duplicate artefact: annotation order is not maintained anymore <br>
+ISTAT-593 - ConceptScheme: CoreRepresentation is now maintained when an artefact is updated or duplicated <br>
+ISTAT-598 - Fix: DMApi's swagger not working <br>
+ISTAT-606 - Added some missing IDs in confirmation popups <br>
+ISTAT-607 - Default layout annotation: only available time periods are now shown <br>
+ISTAT-XXX - Loader: 'CheckFiltAttributes' is now set to true by default <br>
+
+
+## Version 1.5.2 (Release date: January 29, 2021)
+
+MDM v.1.5.2 (.NET CORE 3.1.0) <br>
+Release Date: 29 January 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.1 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-9 - Error message while trying to connect to a not-available web service <br>
+ISTAT-15 - Advanced filters - manage filters on time period with a range <br>
+ISTAT-80 - CompareDSD now available also for anonymous user (if properly set in configuration) <br>
+ISTAT-83 - Upgrade DSD - bug on preview codelist's details <br>
+ISTAT-84 - App Configuration: removed 'Prepared' field from Default Header Submit Structure <br>
+ISTAT-86 - Compare itemschemes from file: corrected bug on itemscheme's preview <br>
+ISTAT-100 - Buttons for 'Clone' and 'Export on Remote Ws' for MSD and HCL <br>
+ISTAT-103 - Different number of items between Simple and Advanced filters <br>
+ISTAT-191 - Layout Annotations (General Parameters) - Added 'Include annotations' option <br>
+ISTAT-314 - Fix on not allowing the import of a concept scheme referencing a not final artefact <br>
+ISTAT-317 - Dataflow Builder - Download: option allDimensions at observation level and possibility to specify dimensions at observation level also for sdmx-json format <br>
+ISTAT-322 - Default layout annotation: only available codes in the dataflow are now shown <br>
+ISTAT-354 - Added ID in confirmation popups <br>
+ISTAT-401 - Fix on uploading files with special characters <br>
+ISTAT-411 - Default Category Scheme Management: possibility to move a category to its parent level <br>
+ISTAT-411 - Default Category Scheme Management: disabled ID field while updating a category <br>
+ISTAT-412 - MDM manual updated <br>
+ISTAT-417/a - Import Attribute File: added report on wrong references for coded attributes <br>
+ISTAT-417/c - Warning for attributes with attachment level Series or Group linked to TimePeriod (not supported yet) <br>
+ISTAT-418 - Filter, simple mode: bug on obs_value and time period  <br>
+ISTAT-419 - Fix on filters on Time-Period in Advanced mode  <br>
+ISTAT-429 - Support for download DDBDataflow with filter in POST: still not supported in MA WS  <br>
+ISTAT-431 - Dataflow Builder: attributes cannot be selected in filters for SDMX formats  <br>
+ISTAT-434 - Possibility to return to the Home from 'Select Default Category Scheme' popup  <br>
+ISTAT-445 - Loader: Fix on upload SDMX-ML data file without frequency dimension  <br>
+ISTAT-476 - Merge itemscheme: fix when result itemscheme has a multilanguage name  <br>
+ISTAT-478 - Wrong message while uploading csv in cube with tid and dataset level attributes  <br>
+ISTAT-479 - Empty cube: table AttNoCode@XX is not truncated  <br>
+ISTAT-485 - Fix on refresh endpoint when creating a virtual dataflow  <br>
+ISTAT-486 - Hidden not available annotation for virtual and linked dataflows  <br>
+ISTAT-489 - Reset DDB: also dataset are now deleted from the MSDB  <br>
+ISTAT-495 - Minor fixes on Update Data Browser Cache (push mode)  <br>
+ISTAT-496 - Bug on blank AttachedDataFile annotations  <br>
+ISTAT-503 - Derived Item Schemes: enlarged search box  <br>
+ISTAT-504 - Local fix on accessing Eurostat's DSDs in a specific format  <br>
+ISTAT-530 - AttributeFile - Bug for SqlServer version 2012  <br>
+
 ## Version 1.5.1 (Release date: December 03, 2020)
 
 MDM v.1.5.1 (.NET CORE 3.1.0) <br>
@@ -200,7 +336,6 @@ NSI WS v.7.10.10 (.NET CORE 2.2.5) <br>
 - Fix on export of artefacts with referenced organization schemes: “Organisation Schemes can not be set to final” <br>
 - Support for Trusted Connection <br>
 - MM: implementation of Hierarchical Codelist (only at stub level) <br>
-
 
 ## Version 1.0.1 (Release date: April 20, 2020)
 Release Date: 20 April 2020 <br>

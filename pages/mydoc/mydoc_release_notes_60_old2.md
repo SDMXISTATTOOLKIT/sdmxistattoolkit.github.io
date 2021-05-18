@@ -8,6 +8,93 @@ permalink: mydoc_release_notes_60_old.html
 folder: mydoc
 ---
 
+## Version 1.5.6 (Release date: April 23, 2021)
+MDM v.1.5.6 (.NET CORE 3.1.0) <br>
+Release Date: 23 April 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-650 - Error while inserting data in a cube with TID and at least an attribute at dataset-level <br>
+ISTAT-651 - Impossible to save a virtual (linked) dataflow after having added layout annotations <br>
+Referential Metadata Module has been excluded from this version <br>
+
+## Version 1.5.5 (Release date: April 15, 2021)
+
+MDM v.1.5.5 (.NET CORE 3.1.0) <br>
+Release Date: 15 April 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-592 - Duplicate artefact: annotation order is not maintained anymore also on codelists <br>
+ISTAT-623 - Category Schemes and Dataflow: error message when trying to move a dataflow under a category where it is already categorised <br>
+ISTAT-628 - Bug when entering an ID if characters are inserted in the middle of the string <br>
+ISTAT-629 - Fix generate transcodings for dataflow from a cube with tid <br>
+ISTAT-639/a - Possibility to enter empty password in Data Browser configuration <br>
+ISTAT-639/b - Wrong message while trying to update Data Browser cache wrongly configurated <br>
+ISTAT-648 - Export in other WS: fix on check on credentials <br>
+Referential Metadata Module has been excluded from this version <br>
+
+## Version 1.5.4 (Release date: April 15, 2021)
+
+MDM v.1.5.4 (.NET CORE 3.1.0) <br>
+Release Date: 10 March 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+- Improved performances on referential metadata in the case of many reports <br>
+
+
+## Version 1.5.3 (Release date: February 26, 2021)
+
+MDM v.1.5.3 (.NET CORE 3.1.0) <br>
+Release Date: 26 February 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i>The following bugs/improvements have been covered:</i> <br>
+ISTAT-76  - Codelist: urn field is now saved correctly <br>
+ISTAT-87  - More explicit error while trying to upload a file already loaded from the file system that has been modified <br> 
+ISTAT-197 - Import Default Category Scheme from MSDB: now the order of categories is maintained <br>
+ISTAT-198 - Slow typing in forms to create/modify items of itemscheme <br>
+ISTAT-204 - TimePeriod is now supported in Content Constraint <br>
+ISTAT-320 - Slow typing when updating concept schemes and in some other cases <br>
+ISTAT-332 - Bug when entering an ID if characters are inserted in the middle of the string <br>
+ISTAT-442 - Dataflow builder: 'Show categorisations' button now mantain the order among categorisations <br>
+ISTAT-474 - MergeCategorySchemes: fixed bug on duplicated categories in the merged artefact <br>
+ISTAT-484 - Dataflow Builder: bug while searching in category schemes <br>
+ISTAT-502 - Filters: bug on available codes retrieved from the whole cube  instead from the dataflow <br>
+ISTAT-528 - Builder: while creating manually a new Default Category Scheme permissions on categories are now assigned automatically <br>
+ISTAT-568 - Managing only-file dataflow with virtual DSD <br>
+ISTAT-569 - Loading: Error message for attributes linked to TimePeriod <br>
+ISTAT-571 - SMTP Mail provider - password field is now encrypted <br>
+ISTAT-591 - DSD: bug on getting details with AllCompleteStub parameter set to true <br>
+ISTAT-592 - Duplicate artefact: annotation order is not maintained anymore <br>
+ISTAT-593 - ConceptScheme: CoreRepresentation is now maintained when an artefact is updated or duplicated <br>
+ISTAT-598 - Fix: DMApi's swagger not working <br>
+ISTAT-606 - Added some missing IDs in confirmation popups <br>
+ISTAT-607 - Default layout annotation: only available time periods are now shown <br>
+ISTAT-XXX - Loader: 'CheckFiltAttributes' is now set to true by default <br>
+
+
 ## Version 1.5.2 (Release date: January 29, 2021)
 
 MDM v.1.5.2 (.NET CORE 3.1.0) <br>
