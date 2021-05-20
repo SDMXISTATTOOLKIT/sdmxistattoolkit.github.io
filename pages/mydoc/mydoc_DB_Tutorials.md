@@ -12,3 +12,7 @@ folder: mydoc
 Brief guide on how to install and configure the DataBrowser tool <br>
 [Download](./Tutorials/01_DataBrowser_Quick_installation manual.zip)<br>
 <br>
+### 2.Building dashboards
+Quick guide on how to build, manage and publish dashboards in the Data Browser <br>
+[Download](./Tutorials/02_Databrowser_Building Dashboards.zip)<br>
+<br>

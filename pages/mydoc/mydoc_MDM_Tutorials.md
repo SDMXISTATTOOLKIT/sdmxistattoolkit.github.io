@@ -20,3 +20,8 @@ Practical tutorial on how to model a statistical multidimensional table based on
 Practical tutorial on how to disseminate statistical multidimensional tables based on the "Industrial Turnover" survey use case<br>
 [Download](./Tutorials/03_MDM Disseminating_statistical table_TURNOVER.zip)
 <br>
+### 4. Managing Layout Annotations
+Practical guide for creating and editing, through the Meta&Data Manager interfaces, specific SDMX annotations that can be used for defining, in the Data Browser tool, layout settings for browsing and visualizing datasets (SDMX dataflows)
+<br>
+[Download](./Tutorials/04_MDM_LayoutAnnotations_Management.zip)
+<br>
