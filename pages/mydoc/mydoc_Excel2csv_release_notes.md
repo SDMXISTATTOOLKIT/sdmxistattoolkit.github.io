@@ -2,12 +2,21 @@
 title: Excel2csv Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: October 15, 2018
+last_updated: January 28, 2022
 sidebar: mydoc_sidebar
 permalink: mydoc_Excel2csv_release_notes.html
 folder: mydoc
 ---
-
+## Version 1.2.12 (Release date: January 10, 2022)
+<i>The following bugs/improvements have been covered:</i> <br>
+- Corrected the "Header info" pop-up form in the "Convert in SDMX format" function
+<br>
+<br>
+## Version 1.2.11
+<i>The following bugs/improvements have been covered:</i> <br>
+- Modified maximum value for data row selector
+<br>
+<br>
 ## Version 1.2.10 (Release date: October 15, 2018)
 <i>The following bugs/improvements have been covered:</i> <br>
 - Added Header Info
