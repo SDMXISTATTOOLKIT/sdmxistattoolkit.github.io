@@ -100,4 +100,8 @@ entries:
     - title: Data Browser
       url: /mydoc_DB_Tutorials.html
       output: web, pdf
+      
+    - title: Excel2csv
+      url: /mydoc_Excel2csv_Tutorials.html
+      output: web, pdf
      
