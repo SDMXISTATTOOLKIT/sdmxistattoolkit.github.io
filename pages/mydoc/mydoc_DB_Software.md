@@ -2,12 +2,14 @@
 title: Data Browser Software
 keywords: tutorials,guidelines,use cases
 last_updated: July 16, 2016
-summary: "In this section is possible to download the software packages of the Meta&Data manager tool"
+summary: "In this section is possible to download the software packages of the Data Browser tool.<br>
+In order to install the application for the first time, is necessary to download the 'First installation package'.<br>
+For upgrading (by overwriting) an already existing installation is possible to use the 'Installation upgrade' package, that doesn't include the configuration files: in this case, please make a backup of the already installed version's files and read carefully the 'Readme' file."
 sidebar: mydoc_sidebar
 permalink: mydoc_DB_Software.html
 folder: mydoc
 ---
 
-| Version | Release date |||
-|-------------|-------------|-------------|-------------|
-| **1.1.1** | 2020 December, 3| [Download](./Software/databrowser_v1.1.1_03-12-2020.zip) | [Release notes](./mydoc_release_notes_50.html#version-111-release-date-december-03-2020) |
+| Version | Release date ||||||||
+|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|**1.3.3**|2021 December, 7|[Readme](./Software/databrowser_v1.3.3_07-12-2022/Readme.pdf)|[First installation](./Software/databrowser_v1.3.3_07-12-2022/DB_1_3_3_First_Install.zip)|[Installation upgrade](./Software/databrowser_v1.3.3_07-12-2022/DB_1_3_3_Upgrade.zip)|[Utility files](./Software/databrowser_v1.3.3_07-12-2022/DB_1_3_3_Utility.zip)|[Manuals](./mydoc_install_jekyll_on_mac.html)|[Release notes](./mydoc_release_notes_50.html#version-133-release-date-december-07-2021)|

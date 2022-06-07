@@ -7,6 +7,178 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+## Version 1.7.3 (Release Date: February 10, 2022)
+MDM v.1.7.3 (.NET CORE 3.1) <br>
+Release Date: 10 February 2022 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+Improvement of security policies for changing passwords.<br>
+
+
+## Version 1.7.2 (Release Date: December 6, 2021)
+MDM v.1.7.2 (.NET CORE 3.1) <br>
+Release Date: 6 December 2021 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+Merge versions 1.7.1 and 1.6.3. <br>
+Reference metadata module is now included in the main release line.<br>
+
+
+## Version 1.6.3 (Release Date: November 12, 2021)
+MDM v.1.6.3 (.NET CORE 3.1.0) <br>
+Release Date: 12 November 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+BUGFIX: fixed the generation of <TargetValues> in SDMX-ML2.0 format <br>
+BUGFIX: fixed the generation of <MetadataStructureAgencyRef> in SDMX-ML2.0 format <br>
+BUGFIX: solved the url generation for the single dataflow reports (catalog widget) <br>
+BUGFIX: solved the numbering present in the report summary <br>
+BUGFIX: corrected the behavior of clicking on the "open information page" button of the metadataset <br>
+The single report can now be downloaded in SDMX-ML 2.0 format <br>
+The download of the entire metadataset in sdmx-ml 2.0 format has been removed (since the SDMX 2.0 standard, unlike SDMX 2.1, required a 1:1 association between report and Metadataset) <br>
+Updated the manual, specifying the sender id customization key for the reports generated (key "EXPORT_RM_SDMX_SENDER_ID" in the appsettings of NODE_API and METADATA_API) <br>
+The ID tag in the header of the sdmx-ml 2.0 report export is now set to the id of the report <br>
+
+## Version 1.7.1 (Release Date: November 3, 2021)
+MDM v.1.7.1 (.NET CORE 3.1) <br>
+Release Date: 3 November 2021 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+<i> The following bugs and small improvements have been covered:</i> <br>
+ISTAT-734 - Functionality "Update Data Browser Cache" now updates catalog cache only <br>
+Fix bug on preview on pc-axis file columns <br>
+Dataflow Builder: 'Force cache update' button is now disabled if the user has no rights on Dataflow Production <br>
+html documentation is now directly accessible from the client under "docs" subfolder <br>
+configLocation parameter in NSI WS default configuration file has been commented <br>
+in the client config file an example url of the Node Api WS has been added <br>
+
+## Version 1.6.2 (Release Date: October 22, 2021)
+MDM v.1.6.2 (.NET CORE 3.1.0) <br>
+Release Date: 22 October 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-139 Report import/export functionality added <br>
+ISTAT-733 Added the possibility to clone single reports within the same Metadataset <br>
+ISTAT-702 All URL type fields will be fillable in multi-language <br>
+ISTAT-703 The sub-theme has been removed as a dedicated field in the MSD and the categorization (on two levels) is managed hierarchically by the single "theme" field <br>
+ISTAT-707 In the catalog widget (data list) the HTML formatting of the dataflow description is maintained ("Dataset description" field) <br>
+ISTAT-708 Changing the language in the catalog and dataflow widget reloads the same page in the selected language, avoiding going back to the home page. <br>
+ISTAT-715 Removed metadataset information (useless to the end user) in the header of catalog and dataflow (DCAT) widgets <br>
+ISTAT-711 BUGFIX: for multilingual fields the behavior when opening the zoom, which was not initialized with the current language, has been corrected <br>
+ISTAT-712 BUGFIX: the selection of an artifact in the compilation of a report now considers possible rights of the user on the specific agency <br>
+ISTAT-705 BUGFIX: the numbering of hierarchical attributes in the widget has been resolved <br>
+
+## Version 1.7.0 (Release Date: October 1, 2021)
+MDM v.1.7.0 (.NET CORE 3.1) <br>
+Release Date: 1 October 2021 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+<i> The following functionalities have been released:</i> <br>
+ISTAT-430 - Support for attributes at level Group or DimensionGroup linked to TimePeriod <br>
+ISTAT-509 - Documentation in md format <br>
+ISTAT-516 - Derived Item Schemes: tree view mode <br>
+ISTAT-517 - CSV Mappings: now shown as a tree <br>
+ISTAT-531 - Possibility to hide cubes and folders in which a user does not have permissions <br>
+ISTAT-535 - Support for loading from Excel file with an XML Mapping generated by the tool ExcelToCsv <br>
+ISTAT-633 - Support for loading from PC-Axis file <br>
+<br>
+<i> The following bugs and small improvements have been covered:</i> <br>
+ISTAT-625 - Changed labels for linked and virtual dataflows <br>
+ISTAT-687 - Small updates for supporting MA WS v8.4.1 <br>
+ISTAT-688 - Annotation update with multiple text entries <br>
+ISTAT-689 - Fix while doing zoom on multilingual text boxes <br>
+ISTAT-690 - Fix on annotation preview for multilingual text boxes with no value for a language <br>
+ISTAT-691 - Minor fixes on conversion from sdmx-ml files to csv with complex textual attributes <br>
+ISTAT-697 - Fix on creating dataflows with a filter OBS_VALUE <> '' <br>
+ISTAT-698 - Bug on loading data in cubes with associated CurrentData view longer than 4000 chars <br>
+ISTAT-699 - Bug on creating a dataflow deselecting a column with only null values <br>
+ISTAT-701 - Bug on moving a category with categorised dataflow under a different category <br>
+ISTAT-716 - Slow typing while inserting names of a derived category scheme <br>
+ISTAT-718 - Fix in item selection in dataflow's default and not displayed annotations <br>
+ISTAT-725 - Removed from custom dsd conditional attributes not selected in the cube <br>
+ISTAT-731 - Fix on update dataset level attribute with NULL values <br>
+Dataflow Builder now creates automatically Allowed Content Constraint instead of Actual Content Constraint <br>
+Fixed a bug when updating a dataflow's header in Dataflow Builder <br>
+Fix on maximum length of dataflow's ID in Dataflow Builder <br>
+Increased timeout for node connection <br>
+Fix for 'set as default order' with data languages different from user interface languages <br>
+
+## Version 1.5.7 (Release Date: June 14, 2021)
+MDM v.1.5.7 (.NET CORE 3.1.0)  <br>
+Release Date: 14 June 2021  <br>
+DDB v.1.3  <br>
+MASTORE v.6.10  <br>
+AUTHDB v.1.0  <br>
+RMDB v.1.2  <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0)  <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0)  <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-670	Dataflow Builder: bug on generating transcodings from content constraint <br>
+ISTAT-686	Bug while storing items of content constraints selecting a sublevel from tree <br>
+Referential Metadata Module has been excluded from this version<br>
+
+## Version 1.6.1 (Release Date: June 11, 2021)
+MDM v.1.6.1 (.NET CORE 3.1.0) <br>
+Release Date: 11 June 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-670	Dataflow Builder: bug on generating transcodings from content constraint <br>
+ISTAT-686	Bug while storing items of content constraints selecting a sublevel from tree <br>
+
+## Version 1.6.0 (Release Date: May 03, 2021)
+MDM v.1.6.0 (.NET CORE 3.1.0) <br>
+Release Date: 03 May 2021 <br>
+DDB v.1.3 <br>
+MASTORE v.6.10 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.1.26.5 (.NET CORE 3.1.0) <br>
+NSI WS v.7.13.2 (.NET CORE 3.1.0) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Improved performances on referential metadata in the case of many reports <br>
+ISTAT-117	Colorare diversamente (in verde) gli attributi compilati <br>
+ISTAT-119	Nell'albero di metadataSet i MetadataSet sono stati anticipati rispetto alle categorie <br>
+
 
 ## Version 1.5.6 (Release date: April 23, 2021)
 MDM v.1.5.6 (.NET CORE 3.1.0) <br>

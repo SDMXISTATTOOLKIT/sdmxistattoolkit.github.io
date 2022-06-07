@@ -8,7 +8,11 @@ folder: mydoc
 ---
 
 ### Installation Manual
-Version: 1.2 <br>
-Date:2020 July, 1<br>
-Manual for installing the Meta&Data Manager application <br>
-[pdf version](./Manuals/MDM_installation_manual_2.12_EN.pdf)
+Version: 1.7.0 <br>
+Date:2021 September, 20 <br>
+[Download pdf](./Manuals/MDM_installation_manual_1.70_EN.pdf)
+
+### User Manual
+Version: 1.7.0 <br>
+Date:2021 September, 20 <br>
+[Download pdf](./Manuals/MDM_user_manual_1.70_EN.pdf)
