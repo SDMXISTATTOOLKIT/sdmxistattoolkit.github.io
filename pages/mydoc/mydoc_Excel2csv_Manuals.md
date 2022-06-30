@@ -7,8 +7,8 @@ permalink: mydoc_Excel2csv_Manuals.html
 folder: mydoc
 ---
 ### User Manual
-Version: 1.2.10 <br>
-Date:2018 October,15 <br>
+Version: 1.3.0 <br>
+Date:2022 June,28 <br>
 User manual of the Excel2csv<br>
-[pdf version](./Manuals/Excel2csv_Handbook.pdf)
+[pdf version](./Manuals/Excel2csv_UserManual.pdf)
 

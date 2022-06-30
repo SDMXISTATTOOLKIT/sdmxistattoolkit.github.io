@@ -7,6 +7,13 @@ sidebar: mydoc_sidebar
 permalink: mydoc_Excel2csv_release_notes.html
 folder: mydoc
 ---
+## Version 1.3.0 (Release date: June 28, 2022)
+<i>The following bugs/improvements have been covered:</i> <br>
+- Added the export, in the csv file, also of constant values from specific cells of the Excel worksheet <br>
+- Added the possibility to indicate the text qualifier for the csv export <br>
+- Changed the message for indicating empty no-value cells in the csv export
+<br>
+<br>
 ## Version 1.2.12 (Release date: January 10, 2022)
 <i>The following bugs/improvements have been covered:</i> <br>
 - Corrected the "Header info" pop-up form in the "Convert in SDMX format" function
