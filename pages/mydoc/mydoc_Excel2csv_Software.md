@@ -11,7 +11,7 @@ folder: mydoc
 
 | Version | Release date |||
 |-------------|-------------|-------------|-------------|
-| **1.3.0** | 2022 June, 28| [Download](./Software/EXCEL2CSV_v1.3.0_28-06-2022.zip) | [Release notes](./mydoc_Excel2csv_release_notes.html#version-130-release-date-june-28-2022) |
+| **1.3.0** | 2022 June, 28| [Download](./Software/EXCEL2CSV_v1.3.0_30-06-2022.zip) | [Release notes](./mydoc_Excel2csv_release_notes.html#version-130-release-date-june-28-2022) |
 |-------------|-------------|-------------|-------------|
 | **1.2.12** | 2022 January, 10| [Download](./Software/EXCEL2CSV_v1.2.12_10-01-2022.zip) | [Release notes](./mydoc_Excel2csv_release_notes.html#Version-1.2.12-release-date-january-10-2022) |
 |-------------|-------------|-------------|-------------|
