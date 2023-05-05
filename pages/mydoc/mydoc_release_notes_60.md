@@ -7,6 +7,100 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+
+
+## Version 1.9.0, 1.9.1, 1.9.2, 1.9.3 (Release Date: November 14, 2022 - February 28, 2023)
+MDM v.1.9.0 (.NET CORE 3.1) <br>
+Release Date: 14 November 2022 <br>
+DDB v.1.5 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.5 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1)
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Mantaining categorisation when upgrading a dsd <br>
+Mapping/Loading - components of a mapping with fixed, calculated or concatenated values <br>
+Possibility to create more than a linked dataflow from the same real dataflow <br>
+Possibility to create multiple categorisations from "Category-schemes and dataflows" page <br>
+Eliminate corrispondent files when a cube is deleted <br>
+Allow modification of referred codelist and conceptschemes from inside a DSD <br>
+Mapping XML for Multisheet Excel files <br>
+Calculation of LastUpdate date for a dataflow <br>
+Make password change policies configurable <br>
+Improvement of annotation configuration (possibility to define ID and type to use separately) <br>
+Possibility to configure footer, homepage and logo of the application <br>
+Possibility to manage default values for the configuration of nodes <br>
+New user permission management in session to not exceed request headers size <br>
+Parameter to show the side menu expanded when opening the application <br>
+Annnotation for management of HCLs in Dataflows and DSDs <br>
+Import cc from file for data validation in loading <br>
+Allow to create file mappings without mapping the OBS_VALUE cube component <br>
+Possibility to selectively delete/modify records in a cube <br>
+
+
+## Version 1.8.4 (Release Date: August 31, 2022)
+MDM v.1.8.4 (.NET CORE 3.1) <br>
+Release Date: 31 August 2022 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+SDMX-ML export: populating the header's Name tag with the name of the header metadataset <br>
+
+## Version 1.8.3 (Release Date: July 27, 2022)
+MDM v.1.8.3 (.NET CORE 3.1) <br>
+Release Date: 27 July 2022 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Modification of metadataset and report export function in SDMX-ML 2.0 for import into Metadata Handler <br>
+Now all the possible items for a dimension or an attribute are always shown while creating a cc <br>
+Removing HTML encoding within non-XHTML attributes <br>
+Import "NaN" values as strings in cubes with alphanumeric observation values <br>
+Modification to the authorization's mechanism <br>
+
+## Version 1.8.1 (Release Date: April 8, 2022)
+MDM v.1.8.1 (.NET CORE 3.1) <br>
+Release Date: 08 April 2022 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Validate input from CC: now all cc built on dataflows using the same dsd of the cube are shown <br>
+
+
+## Version 1.8.0 (Release Date: February 25, 2022)
+MDM v.1.8.0 (.NET CORE 3.1) <br>
+Release Date: 25 February 2022 <br>
+DDB v.1.4 <br>
+MASTORE v.6.15 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.2 <br>
+MA WS v.8.4.1 (.NET CORE 3.1) <br>
+NSI WS v.8.4.1 (.NET CORE 3.1) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Improving Upgrade DSD functionality with support for adding conditional attributes <br>
+Creating Content Constraints from file and validation through them in Loading <br>
+Support for authomatic creation of Content Constraints for a dataflow from transcoding also without admin permission <br>
+Dataflow Builder Publishing - Possibility to create either actual or allowed Content Constraints <br>
+
+
 ## Version 1.7.3 (Release Date: February 10, 2022)
 MDM v.1.7.3 (.NET CORE 3.1) <br>
 Release Date: 10 February 2022 <br>
