@@ -109,4 +109,13 @@ entries:
     - title: Excel2csv
       url: /mydoc_Excel2csv_Tutorials.html
       output: web, pdf
+      
+
+  - title: Events
+    output: web, pdf
+    folderitems:
+
+    - title: SDMX Tools knowledge sharing workshop 2023
+      url: /mydoc_events_2023_SDMX_wksh.html
+      output: web, pdf
      
