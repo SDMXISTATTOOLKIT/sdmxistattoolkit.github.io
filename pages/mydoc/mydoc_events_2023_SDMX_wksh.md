@@ -11,6 +11,6 @@ permalink: mydoc_events_2023_SDMX_wksh.html
 folder: mydoc
 ---
 |[Workshop Programme](./Events/SDMX_Workshop_2023/SDMXWKS_2023_Programme.pdf)|
-|**Day1**|2023 June, 12|[Slides](./Events/SDMX_Workshop_2023/SDMXWKS_2023_Slides_Day1.zip)|[Videos](https://drive.google.com/drive/folders/1fhL-RsWEbiXQHOqD-nj5mTJtPRfVqCVR?usp=drive_link)|
-|**Day2**|2023 June, 13|[Slides](./Events/SDMX_Workshop_2023/SDMXWKS_2023_Slides_Day2.zip)|[Videos](https://drive.google.com/drive/folders/1OxDIExAd13SXb1oxH7dU5YH8_ce-Mv_-?usp=drive_link)|
-|**Day3**|2023 June, 14|[Slides](./Events/SDMX_Workshop_2023/SDMXWKS_2023_Slides_Day3.zip)|[Videos](https://drive.google.com/drive/folders/1pMfiM-NpWED68tEcHdojCotqomHIgOIn?usp=drive_link)|
+|**Day1**|2023 June, 12|[Slides](./Events/SDMX_Workshop_2023/SDMXWKS_2023_Slides_Day1.zip)|[Videos](https://drive.google.com/drive/folders/1fhL-RsWEbiXQHOqD-nj5mTJtPRfVqCVR?usp=sharing)|
+|**Day2**|2023 June, 13|[Slides](./Events/SDMX_Workshop_2023/SDMXWKS_2023_Slides_Day2.zip)|[Videos](https://drive.google.com/drive/folders/1OxDIExAd13SXb1oxH7dU5YH8_ce-Mv_-?usp=sharing)|
+|**Day3**|2023 June, 14|[Slides](./Events/SDMX_Workshop_2023/SDMXWKS_2023_Slides_Day3.zip)|[Videos](https://drive.google.com/drive/folders/1pMfiM-NpWED68tEcHdojCotqomHIgOIn?usp=sharing)|
