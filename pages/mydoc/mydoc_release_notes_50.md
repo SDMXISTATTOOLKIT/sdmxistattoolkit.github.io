@@ -7,6 +7,83 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_50.html
 folder: mydoc
 ---
+## Version 1.6.3 (Release date: February 24, 2023)
+.NET CORE 6.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-914 The order of presentation of the territorial levels has been changed<br>
+ISTAT-915 Fixed the "not selectable" (in some cases) of the level of detail selector in the map<br>
+ISTAT-916 Correction of some polygons in the geographical database (e.g. countries bordering the Caspian Sea)<br>
+ISTAT-918 Extension of the area displayed in the map of the whole world, to facilitate its use<br>
+ISTAT-919 Fixed deletion of temporary files for downloads<br>
+
+## Version 1.6.1 (Release date: January 9, 2023)
+.NET CORE 6.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-901(a) Addition of confirmation message, before deleting the template via "shortcut"<br>
+ISTAT-901(b) Addition of the timetable (hh:mm:ss format) in the PDF export<br>
+ISTAT-901(c) Fix catalog tree navigation<br>
+ISTAT-901(d) Removal of the level of detail selector in the case of single geometry<br>
+ISTAT-902 Addition of the new geographical database<br>
+ISTAT-909 BUGFIX: restored correct functioning of search in filters<br>
+ISTAT-910 BUGFIX: manual update<br>
+ISTAT-911 BUGFIX: items marked for hierarchy purposes only have been hidden<br>
+
+## Version 1.6.0 (Release date: December 12, 2022)
+.NET CORE 6.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-883 Added the possibility to download the Excel of the entire dataset in the dashboard<br>
+ISTAT-866 Added the possibility to enable the Progressive Web App (PWA) for the Data Browser<br>
+ISTAT-865 Added the possibility to sort the data, in multidimensional table<br>
+ISTAT-864 Added the possibility to make filters, in multidimensional table<br>
+ISTAT-863 Added ability to customize translations for an installation<br>
+ISTAT-862 Added the News module<br>
+ISTAT-861 Added the possibility to define some default behaviors for the graphs, from configuration files<br>
+ISTAT-860 Added new features to the map: configure new background maps, perform geographic filters, define custom class intervals, define some default behaviors<br>
+ISTAT-858 Added the possibility to configure private nodes, i.e. accessible only to some users<br>
+ISTAT-856 Addition of email verification during registration<br>
+ISTAT-855 API update to .NET6<br>
+
+## Version 1.5.1 (Release date: November 24, 2022)
+.NET CORE 3.1.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-875 The CSV export has been adjusted to always include all the decimals present in the data<br>
+ISTAT-882 Added the ability to download the CSV, in dashboards, considering all the criteria with which the view was created<br>
+ISTAT-884 Added an identifier to the CSV download button next to the viewers, to be able to customize its style (or hide it)<br>
+ISTAT-886 Optimization of dashboard retrieval queries<br>
+ISTAT-889 Addition of CSV export in dashboard, also for charts and maps<br>
+ISTAT-890 Preparation of a new generic error page<br>
+ISTAT-876 BUGFIX: fixed the omission of the zero for decimal digits representing values below the unit<br>
+ISTAT-877 BUGFIX: fixed the behavior that led to an inconsistent graphic status, clicking on the browser back button while a data was being viewed in fullscreen mode<br>
+ISTAT-879 BUGFIX: fixed the inconsistency of selected level of detail, between view and dashboard<br>
+ISTAT-887 BUGFIX: fix the failed initialization of maps in dashboard, starting from the second visualization<br>
+ISTAT-888 BUGFIX: Restore the behavior that, regardless of the filters applied, opens the Criteria window by selecting the first available dimension<br>
+​
+
+## Version 1.5.0 (Release date: September 20, 2022)
+.NET CORE 3.1.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+ISTAT-287 Added the display of hierarchical codelists (no HCL) in the table, in case the dimension with hierarchy is put in line<br>
+ISTAT-291 Added the possibility to define, at node level, which data languages are actually available<br>
+ISTAT-391 Inclusion of the title by placing the individual viewers in full screen<br>
+ISTAT-394 Added the shortcut, when viewing a data, for modifying the cache and deleting the template<br>
+ISTAT-609 Added the concept of visibility of a node, so you can have active but not visible nodes in the portal<br>
+ISTAT-784 Added the possibility to invert the time dimension, in tables and graphs<br>
+ISTAT-785 Added the possibility to remove, by customizing the template, some of the available viewers<br>
+ISTAT-786 Improved the resolution of the image in the download of the graphs<br>
+ISTAT-794 Added the possibility, via template, to fix some dimensions in graphs and tables so as not to change their positioning through pivoting<br>
+ISTAT-804 Changed the display logic of the images for the categories<br>
+ISTAT-805 Added support for authentication via Shibboleth, via the ShibO2Module module<br>
+ISTAT-810 The representation of the attributes in the table has been changed (in the new version the presence of an attribute is always indicated with an asterisk)<br>
+ISTAT-811 Addition of the tree navigation mode in the exploration of the categories<br>
+ISTAT-812 Added the possibility to export maps and graphs in PDF<br>
+ISTAT-820 Added the possibility to configure the baseUrl of the SDMX web service, to be shown in the "query view" popup, available for the end user<br>
+ISTAT-831 Addition, in the criteria, the possibility of displaying only the selected items<br>
+ISTAT-832 Added the possibility, in the filters, to search for items by code<br>
 
 ## Version 1.3.3 (Release date: December 07, 2021)
 .NET CORE 3.1.0
