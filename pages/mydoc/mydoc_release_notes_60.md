@@ -7,7 +7,46 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
-
+## Version 2.1.10 (Release Date: November 30, 2023)
+MDM v.2.1.10 (.NET 6) <br>
+Release Date: 30 November 2023 <br>
+DDB v.1.5 <br>
+MASTORE v.6.20 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.5 <br>
+MA WS v.8.15.1 (.NET 6) <br>
+NSI WS v.8.15.1 (.NET 6) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+MDM-11: Mapping Handler <br>
+MDM-12: Import structure files in sdmx 2.0 format <br>
+Mapping Set: Validation errors are now shown paginated <br>
+Improvement Mapping: possibility to rename and edit new calculated fields <br>
+Improvement Mapping: two messages added in Enable Transformations (initial warning and final report) <br>
+Improvement Mapping: possibility to select the operator in IIS and CASE function wizard <br>
+Improvement Mapping: possibility to select a field as value in IIS and CASE function wizard <br>
+Improvement Mapping: new "Add Condition" button and 'AND/OR' operators added in IIF function wizard <br>
+Improvement Mapping: enabled IIF, "CASE" and "FILE" features <br>
+Mapping Set: the selected Connection and Dataset now appear in the wizard header <br>
+Improvement Mapping: possibility to select and modify the order of the fields in preview and download of the processed dataset <br>
+Improvement Mapping: new "Enable Transformations" button added in order to allow the creation of calculated fields <br>
+Loader: import data with calculated fields <br>
+Loader: new endpoint added in order to include new calculated fields in csv file; if the mapping file does not contain calculated fields, data will be imported with current endpoint <br>
+Mapping Set: pagination implemented when viewing the items of the Codelist associated with the component to define the transcoding <br>
+Dataflow Publishing: cross sectional 2.0 download implemented <br>
+Dataflow Builder: cross sectional 2.0 download implemented <br>
+Annotation: set new annotations as working annotation <br>
+Improvement Mapping: new “Download” button added in Processed Dataset and Preview <br> 
+Improvement Mapping: added the ability to download and import rules file <br>
+Improvement Mapping: calculated field used in another calculated field <br>
+Improvement Mapping: calculated field visible in the field list of the function page <br>
+Improvement Mapping: fixed bug when importing large files <br>
+Improvement Mapping: fixed bug when entering fixed values <br>
+Improvement Mapping: Replace function with blank value <br>
+Improvement Mapping: Substring function with negative values <br>
+Dataset Builder: changed the display of the Dataflow and Datacube name <br>
+Mapping Set: added the ability to download errors in Data Validation <br>
+Import DSD 2.0: managed DSD 2.1 and 2.0 loading <br>
 
 ## Version 1.9.0, 1.9.1, 1.9.2, 1.9.3 (Release Date: November 14, 2022 - February 28, 2023)
 MDM v.1.9.0 (.NET CORE 3.1) <br>

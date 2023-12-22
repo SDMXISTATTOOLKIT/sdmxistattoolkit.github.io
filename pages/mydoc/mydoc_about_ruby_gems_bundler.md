@@ -7,6 +7,17 @@ permalink: mydoc_about_ruby_gems_etc.html
 folder: mydoc
 ---
 
+## Version 2.1
+
+### Installation Manual
+Date:2023 November, 30 <br>
+[Download pdf](./Manuals/MDM_Installation_Manual_2110_EN.pdf)
+
+### User Manual
+Date:2023 November, 30 <br>
+[Download pdf](./Manuals/MDM_User_Manual_2110_EN.pdf)
+
+
 ## Version 1.9
 
 ### Installation Manual
