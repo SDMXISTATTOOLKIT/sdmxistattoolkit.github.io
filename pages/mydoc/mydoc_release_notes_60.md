@@ -7,6 +7,19 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+## Version 2.1.12 (Release Date: January 12, 2024)
+MDM v.2.1.12 (.NET 6) <br>
+Release Date: 12 January 2024 <br>
+DDB v.1.5 <br>
+MASTORE v.6.20 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.5 <br>
+MA WS v.8.15.1 (.NET 6) <br>
+NSI WS v.8.15.1 (.NET 6) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Import DSD 2.0: Fixed some bugs on opening the details of the imported DSDs<br>
+
 ## Version 2.1.10 (Release Date: November 30, 2023)
 MDM v.2.1.10 (.NET 6) <br>
 Release Date: 30 November 2023 <br>
