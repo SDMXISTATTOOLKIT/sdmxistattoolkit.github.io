@@ -7,6 +7,42 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_50.html
 folder: mydoc
 ---
+
+## Version 2.0.6 (Release date: March 20, 2024)
+.NET CORE 6.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Introduction of new caches to optimize queries with NSIWS <br>
+Use of content constraints in retrieving Codelists (PARTIAL) <br>
+Introduction of new caches for partial codelists ("step by step partial" and "all partial" modes) <br>
+Introduction of the possibility of anticipating the verification of exceeding the threshold of the maximum number of records, estimating the number of resulting observations <br>
+Introduction of a new dimension/data navigation mode: OPTIMIZED ALL PARTIAL <br>
+Introduction of the possibility of configuring SQL Server as a database, as an alternative to SQLite <br>
+Improvement in the management of exceeding the maximum threshold of the number of cells <br>
+Improvement in the management of exceeding the maximum number of observations allowed, which allows you to guide the user in positioning dimensions in the filters <br>
+Technological adaptation on the client (partial) and server side (SdmxSource) <br>
+When navigating to a "potential" data/dashboard, login is now requested <br>
+Added a new configuration to enable/disable pan&zoom on the category axes <br>
+Improved the times for generating the export file in CSV format <br>
+The default Annotation configurations have been standardized with MDM version 1.10 <br>
+The email verification mechanism during registration has been made configurable, via appsettings.json <br>
+In the release package, for all configurations that require access to the database, in addition to the classic SQLite mode, active by default, a commented example with the parameters for SQL Server has also been included <br>
+Password autocomplete for NSIWS (HTTP Authentication and Proxy) has been disabled <br>
+Improved management of display of names that are too long in filters <br>
+Improved the performance of the table to manage user permissions on individual nodes <br>
+In the registration and user creation form the only mandatory fields are: email, password <br>
+The annotation dedicated to the implementation of Content Constraints has been made configurable <br>
+Creation of the SQL Server Geometries table at application startup <br>
+Adaptation of the configurations released in the package to ISTAT specifications <br>
+Added details on configuration with SQL Server to the manual <br>
+Optimization of the query for downloading data for the current view only (ALL PARTIAL OPTIMIZED mode) <br>
+Fixed the inconsistency between the time period filters in the criteria tab and the SDMX query (ALL PARTIAL OPTIMIZED mode) <br>
+Removed double catalog request following cache invalidation <br>
+Resolution of misalignment between header and contents in multidimensional table <br>
+Improved performance when downloading data in CSV format <br>
+rimozione della possibilità di scaricare l'intero dataset in modalità ALL PARTIAL OPTIMIZED <br>
+removal of the possibility of downloading the entire dataset in ALL PARTIAL OPTIMIZED mode <br>
+
 ## Version 1.6.3 (Release date: February 24, 2023)
 .NET CORE 6.0
 <br>

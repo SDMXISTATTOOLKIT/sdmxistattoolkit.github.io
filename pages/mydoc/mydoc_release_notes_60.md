@@ -7,6 +7,28 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+## Version 2.1.15 (Release Date: March 8, 2024)
+MDM v.2.1.15 (.NET 6) <br>
+Release Date: 8 March 2024 <br>
+DDB v.1.5 <br>
+MASTORE v.6.20 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.5 <br>
+MA WS v.8.15.1 (.NET 6) <br>
+NSI WS v.8.15.1 (.NET 6) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+File Mapping: fixed bug in Show Processed Dataset <br>
+File Mapping: removed column with the prefix '_EDIT' <br>
+Mapping Set: The 'Code Match' into Transcoding not work properly <br>
+Dataset Builder: The 'Download artefact', 'Clone artefact' and 'Export to other WS' not work properly <br>
+HCL: fixed bug in rename hierarchy <br>
+HCL: add flag autosave in edit HCL page <br>
+HCL: fixed bug in delete items from hierarchy <br>
+Mapping Handler: fixed bug in downloading dataflow <br>
+Loader: fixed bug when importing data with validation file <br>
+Fixed bug in publishing Hierarchical codelist <br>
+
 ## Version 2.1.12 (Release Date: January 12, 2024)
 MDM v.2.1.12 (.NET 6) <br>
 Release Date: 12 January 2024 <br>
