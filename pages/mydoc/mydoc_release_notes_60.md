@@ -7,6 +7,34 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+## Version 2.1.19 (Release Date: May 30, 2024)
+MDM v.2.1.19 (.NET 6) <br>
+Release Date: 30 May 2024 <br>
+DDB v.1.5 <br>
+MASTORE v.6.20 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.5 <br>
+MA WS v.8.15.1 (.NET 6) <br>
+NSI WS v.8.15.1 (.NET 6) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+BUGFIX: Category Schemas and Dataflow: drag and drop of the category schema is not possible if there is even one unfinalized category with a dataflow <br>
+BUGFIX: Trim function: it is now compatible with Sql Server versions prior to 2016 <br>
+BUGFIX: Fixed bug in Left_Trim and Right_Trim functions <br>
+BUGFIX: Mapping Handler: Validate dataset as 'RunAsAdmin' user <br>
+BUGFIX: Transformation field: fixed bug in import csv file in CASE expression <br>
+Mapping Handler: fixed bug in saving mapping set by users without admin role (if the parameter "Admin Role" is set in configuration) <br>
+Fixed bug in clearing databrowser cache <br>
+BUGFIX: incorrect order of attributes and dimensions in Dataflow Builder <br>
+BUGFIX: fixed data preview with filter in File Mapping <br>
+BUGFIX: fixed deletion of cube data filtered by time dimension <br>
+Backup table indexes are now compatible with SQL Server versions prior to 2016 <br>
+Attribute Representation: the selection list now includes the attributes with Attachment Level = DimensionGroup <br>
+Attribute Representation: removed "View" and "Delete" buttons <br>
+removed empty "AnnotationURL" in loading DSD <br>
+BUGFIX: fixed bug in multiple selection of HCL <br>
+
+
 ## Version 2.1.15 (Release Date: March 8, 2024)
 MDM v.2.1.15 (.NET 6) <br>
 Release Date: 8 March 2024 <br>

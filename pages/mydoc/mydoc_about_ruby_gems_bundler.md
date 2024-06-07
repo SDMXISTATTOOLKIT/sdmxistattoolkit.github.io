@@ -10,12 +10,12 @@ folder: mydoc
 ## Version 2.1
 
 ### Installation Manual
-Date:2024 February, 14 <br>
-[Download pdf](./Manuals/MDM_Installation_Manual_2114_EN.pdf)
+Date:2023 November, 28 <br>
+[Download pdf](./Manuals/MDM_Installation_Manual_2110_EN.pdf)
 
 ### User Manual
-Date:2023 November, 30 <br>
-[Download pdf](./Manuals/MDM_User_Manual_2110_EN.pdf)
+Date:2024 February, 15 <br>
+[Download pdf](./Manuals/MDM_User_Manual_2114_EN.pdf)
 
 
 ## Version 1.9
