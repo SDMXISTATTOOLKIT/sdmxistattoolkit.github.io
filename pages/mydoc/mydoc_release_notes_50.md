@@ -7,6 +7,14 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_50.html
 folder: mydoc
 ---
+## Version 2.0.8 (Release date: May 30, 2024)
+.NET CORE 6.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+BUGFIX: update of the migration tool to resolve problems encountered in the presence of large amounts of data <br>
+Improved performance when converting to json-stat <br>
+BUGFIX: restored the dashboard preview <br>
+
 
 ## Version 2.0.6 (Release date: March 20, 2024)
 .NET CORE 6.0
