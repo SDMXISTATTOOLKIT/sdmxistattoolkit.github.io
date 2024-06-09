@@ -7,6 +7,13 @@ sidebar: mydoc_sidebar
 permalink: mydoc_Excel2csv_release_notes.html
 folder: mydoc
 ---
+## Version 1.4.0 (Release date: May 2, 2024)
+<i>The following bugs/improvements have been covered:</i> <br>
+- Fixed bug when handling header cell type
+<br>
+<br>
+
+
 ## Version 1.3.0 (Release date: June 28, 2022)
 <i>The following bugs/improvements have been covered:</i> <br>
 - Added the export, in the csv file, also of constant values from specific cells of the Excel worksheet <br>
