@@ -20,5 +20,5 @@ folder: mydoc
 
 |[Photogallery](./mydoc_wksh_2024_gallery.html)|
 
-|<img src="./images/workshop_2024/wksh_2024_015.jpg">|
-|<img src="./images/workshop_2024/wksh_2024_017.jpg">|
+|<img src="./images/wksh_2024_015.jpg">|
+|<img src="./images/wksh_2024_017.jpg">|
