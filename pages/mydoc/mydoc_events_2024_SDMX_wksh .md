@@ -16,7 +16,7 @@ folder: mydoc
 |**Day1**|2024 June, 10|[Slides](./Events/SDMX_Workshop_2024/SDMXWKS_2024_Slides_Day1.zip)|
 |**Day2**|2024 June, 11|[Slides](./Events/SDMX_Workshop_2024/SDMXWKS_2024_Slides_Day2.zip)|
 |**Day3**|2024 June, 12|[Slides](./Events/SDMX_Workshop_2024/SDMXWKS_2024_Slides_Day3.zip)|
-|**Day4**|2024 June, 13|[Slides Training for data producers](./Events/SDMX_Workshop_2024/Workshop_2024_Training_Data_Producers.zip)|
+|**Day4**|2024 June, 13|[Slides Training for data producers](./Events/SDMX_Workshop_2024/Workshop_2024_Training_Data_Producers.zip)<br>[Slides Training for programmers](./Events/SDMX_Workshop_2024/Workshop_2024_Training_Programmers.zip)|
 
 |[Photogallery](./mydoc_wksh_2024_gallery.html)|
 
