@@ -121,7 +121,7 @@ entries:
       url: /mydoc_events_2023_SDMX_wksh.html
       output: web, pdf
 
-  - title: References
+  - title: Implementations
     output: web, pdf
     folderitems:
 
