@@ -7,6 +7,47 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+## Version 2.1.25 (Release Date: October 8, 2024)
+MDM v.2.1.25 (.NET 6) <br>
+Release Date: 8 October 2024 <br>
+DDB v.1.5 <br>
+MASTORE v.6.20 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.5 <br>
+MA WS v.8.15.1 (.NET 6) <br>
+NSI WS v.8.15.1 (.NET 6) <br>
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Mapping Handler: category schema page optimization <br>
+Mapping Handler: fixed the message on the Mapping Set page in case of incorrect or missing 'RunAsAdmin' account configuration <br>
+Dataflow publishing: a warnings appears if the databrowser configuration is incorrect <br>
+Dataflow publishing: optimization in the creation and removal of the mapping set <br>
+Dataflow publishing: invalidation of the data browser cache without waiting for a response in the creation and removal of the mapping set <br>
+Mapping Handler: consistency check of the frequency with the codelist <br>
+Mapping Handler: removed Content Constraints functionality in dataflow publishing <br>
+Mapping Handler: more explanatory error message instead of 'bad response' <br>
+dataflow builder: fixed the language parameter in the URL for showing the dataflow in the data browser preview <br>
+dataflow publishing: invalidation of the data browser cache without waiting for a response <br>
+File mapping: fixed error when loading rules file not corresponding to current csv file <br>
+Fix HCL: filtered list of agencies based on user rights <br>
+Dataflow Builder optimization: <br>
+- the GetMappingsetIdForDataflow and RemoveTranscoding methods no longer requires the entire list, but only the modified entity; <br>
+- the RemoveLocalCodes method has been removed as useless (the store procedure it calls does not exist); <br>
+- the FindMaEntity method has been replaced by the response from the previous call; <br>
+New 'no authentication' option in the node configuration for accessing to the Nsi service without authentication <br>
+Dataflow publishing: Transcoding and Content Constraints hidden by default (can be reactivated at the user's choice) <br>
+Automatic cache invalidation after filtered deletion of cube records <br>
+Fixed Category Schema ordering error caused by a bug in NSI_WS v.8.15.1 (SDMXRI-2365: NSI_WS 8.16.0: Bug on updating the not empty text of the annotations in the dataflows) <br>
+Fixed error in HCL sorting and in the display of items among the default filters <br>
+Drop of temporary view in Attribute File import <br>
+File Mapping: fixed error in download from preview page <br>
+File Mapping: fixed error in 'Import Case from file' <br>
+Mapping Handler: extended the use of RunAsAdmin account in ValidateDataset, GetDataFromCodelist and ValidateMapping <br> 
+BUG FIX: Removed temporary tables after importing attribute file <br>
+BUG FIX: Failure to display items among the default filters (Table layout annotation) <br>
+BUG FIX: Fixed the method that returns the Mapping Set ID for a DDB dataflow <br>
+
+
 ## Version 2.1.19 (Release Date: May 30, 2024)
 MDM v.2.1.19 (.NET 6) <br>
 Release Date: 30 May 2024 <br>
