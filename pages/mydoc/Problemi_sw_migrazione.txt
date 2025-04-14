@@ -1,0 +1,5 @@
+download excel in all partial optimized POPRES1TEST4
+attributi come dimensioni
+scarico excel in ALL_PARTIAL OPTIMIZED dà errore
+filtro che non si ripulisce
+Lenta l'apertura del dataflow

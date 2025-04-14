@@ -7,6 +7,89 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_50.html
 folder: mydoc
 ---
+## Version 4.1.11 (Release date: March 3, 2025)
+.NET CORE 6.0
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Update of SdmxSource libraries to version 9.11.0 <br>
+Improved performance in json-stat conversion <br>
+The filter popup has been evolved to support any hierarchies present in classic Codelists <br>
+The hierarchical representation in the table has been improved <br>
+The performance of the tree (in Criteria) has been improved <br>
+In the dashboards the possibility of zooming the graphed area has been added, for all graphs that support it <br>
+A new annotation has been implemented, to be able to order the presentation of Category Schemes <br>
+Added the possibility of configuring the scale extremes in graphs with Cartesian axes (lower extreme set to zero or that adapts to the data) <br>
+Possibility of defining the layout for the graph family <br>
+Exclusion from the catalog of linked dataflows on private/inactive nodes <br>
+Possibility of presenting attributes as dimensions in multidimensional table <br>
+Added the ability to configure the Time Period representation <br>
+Added the ability to merge/split grouping cells in the side and header in the multidimensional table <br>
+Added support for the lastNObservations parameter of the NSIWS <br>
+Added the management of Hierarchical Code Lists (value based) in the Criteria <br>
+Final technological adaptation <br>
+Added new permissions for creating and sharing dashboards at node level <br>
+Changed the dashboard organization <br>
+Generalization of (external) dashboard and CRUD filters via GUI <br>
+Added the ability to share specific data representations via widgets <br>
+Added the ability to share Dashboards as widgets <br>
+Added the ability to categorize dashboards in the catalog <br>
+Receive layout annotations in Linked Dataflow <br>
+Optimized the space in the criteria for selecting a hierarchy, in the presence of HCL <br>
+By logging in while viewing a data, the application reloads exactly the current view <br>
+(Various) optimizations of the vertical spaces, released in custom.css <br>
+Changed the icons and display logic of the icons for zooming on the graphs <br>
+The positioning of the data access buttons and metadata in custompage has been fixed <br>
+Added an option to decide whether to display the categories inserted in custompages expanded or collapsed <br>
+Added an option to hide the title of the custompages in display <br>
+Added the zoom on the selected category <br>
+Changed the background color and font in the tooltips of the attributes <br>
+Improved the performance of saving the node, which was slow in the presence of many users <br>
+Removal of the id in the presence of unencoded dimensions/attributes <br>
+Software adapted to receive encrypted microservice passwords (ExternalAuth) <br>
+Changed the hierarchical representation in the table, if intermediate levels are not selected: each item is positioned as a direct child of the first ascendant present in the table or as a root if no ascendant is present. <br>
+Removal of the double error message in the case of incorrect login <br>
+When updating the machine-to-machine password via the graphical interface (GUI), it is automatically synchronized with the microservices as well. It is necessary to remove the 'ExternalAuth' configuration under the 'AuthServiceConfig' key from the microservices, as it is no longer needed. Then, update the machine-to-machine password using the dedicated function in the GUI. <br>
+Updated the manual to explain the dashboard migration utility logging system <br>
+Removed ID from attribute name labels, in Excel export <br>
+Added translation for error message, in case of incorrectly configured dashboard microservice <br>
+Checked block timing; more details directly on the ticket and in the user manual <br>
+Standardized the order of the geometry table fields between SQL Server and SQLite <br>
+Adjusted the management of the number of decimals in Excel display/export and improved the related configuration at node and template level <br>
+Removed the 30-second timeout for clearing caches <br>
+Updated the criteria icon <br>
+Changed the encoding supported in loading dashboard filters: UTF-8  <br>
+Improved the management of the case in which parametric filters did not give results (the white card remained)  <br>
+Added translations of the names of the languages ​​supported by the ISO 639-1 standard  <br>
+Added application-level configuration to decide how to display the widget metadata  <br>
+Physical deletion of cached artifacts, deleting all structures  <br> <br>
+BUGFIX  <br>
+Restored the Time Period in filters for data with frequencies other than annual (ALL PARTIAL OPTIMIZED mode)  <br>
+Restored the last column in the header of the Excel export  <br>
+Fixed blue screens in the presence of tables (e.g. user list, dashboard, ..)  <br>
+Restored the consistency of the Time Period selector with the set frequency  <br>
+Fixed the check for the presence of a node with the same identifier during import  <br>
+Fixed the overlapping of the asterisk of the attributes with the axes and opened a ticket for the chartjs community for the disappearance of the line in the presence of zoom: https://github.com/chartjs/chartjs-plugin-zoom/issues/816  <br>
+Negative values ​​taken into account when adapting the scale to the data range  <br>
+Fixed the scale in the case of stacked bar chart  <br>
+Fixed the display of alphanumeric data of the form "number - number"  <br>
+Added the possibility to select the category schema, even if it is unique in the node  <br>
+In the absence of content constraint on the TIME PERIOD, the time dimension is still shown in FULL mode (previously the dimension was hidden)  <br>
+Fixed the opening of an existing view, following the migration from sqlite to sqlserver  <br>
+Fixed the problem in ALL_PARTIAL_OPTIMIZED mode, where changing the language or login did not correctly apply the filters to data requests  <br>
+In the data cache management interface, the synchronization issue between the text filters applied to the dataflow list and the underlying table has been fixed  <br>
+Fixed the import of geometries via CSV file, at node level  <br>
+Fixed the rounding of numbers in Excel export  <br>
+Restored the union of the cells on the side in the Excel export  <br>
+Restored in the Excel export Id and Label, if requested (even if identical)  <br>
+Corrected the management of the attributes treated as dimension, in the Excel export  <br>
+Fixed the alignment of the filter tree with any text filters set  <br>
+Fixed the error in the Excel download in the case of decimals not set in the node configuration  <br>
+Fixed the error in the dashboard display, applying filters parametric  <br>
+Restored Excel export functionality, in case of parametric filters application  <br>
+Added HTTP authentication configured to the endpoint Ping request  <br>
+Fixed restoring hierarchies in the filter popup, including previously missing elements without children  <br>
+Fixed restoring hierarchies in the filter popup, in size selection modes other than ALL_PARTIAL_OPTIMIZED  <br>
+
 ## Version 2.0.8 (Release date: May 30, 2024)
 .NET CORE 6.0
 <br>

@@ -7,6 +7,66 @@ sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
+## Version 2.4.13 (Release Date: March 14, 2025)
+MDM v.2.4.13 (.NET 6) <br>
+Release Date: 14 March 2025 <br>
+DDB v.1.5 <br>
+MASTORE v.7.1 <br>
+AUTHDB v.1.0 <br>
+RMDB v.1.5 <br>
+MA WS v.9.11.0 (.NET 6) <br>
+NSI WS v.9.11.0 (.NET 6)
+<br>
+<i> The following bugs/improvements have been covered:</i> <br>
+Support for new Time Mapping entities and Transcoding rules <br>
+Time period mapping: new SingleColumn parameter in the DataManagement configuration <br>
+DM API wizard: fixed bug in MASTORE database initialization <br>
+Fixed bug in HCL ordering <br>
+Dataflow Builder optimization: <br>
+&nbsp;&nbsp;the GetMappingsetIdForDataflow and RemoveTranscoding methods requires only the modified entity; <br>
+&nbsp;&nbsp;the RemoveLocalCodes method has been removed as useless (the store procedure it calls does not exist); <br>
+&nbsp;&nbsp;the FindMaEntity method has been replaced by the response from the previous call; <br>
+New 'no authentication' option in the node configuration for accessing to the Nsi service without authentication <br>
+Dataflow publishing: Transcoding and Content Constraints hidden by default (can be reactivated at the user's choice) <br>
+Automatic cache invalidation after filtered deletion of cube records <br>
+Fixed error in HCL sorting and in the display of items among the default filters <br>
+Drop of temporary view in Attribute File import <br>
+File Mapping: fixed error in download from preview page <br>
+File Mapping: fixed error in 'Import Case from file' <br>
+Mapping Handler: extended the use of RunAsAdmin account in ValidateDataset, GetDataFromCodelist and ValidateMapping <br>
+Dataflow publishing: a warnings appears if the databrowser configuration is incorrect <br>
+Dataflow publishing: optimization in the creation and removal of the mapping set <br>
+dataflow publishing: invalidation of the data browser cache without waiting for a response in the creation and removal of the mapping set; <br>
+Mapping Handler: consistency check of the frequency with the codelist <br>
+Mapping Handler: removed Content Constraints functionality in dataflow publishing <br>
+Mapping Handler: more explanatory error message instead of 'bad response' <br>
+Mapping Handler: fixed the update of the mapping set <br>
+Mapping Handler: fixed the delete of the single transcoding <br>
+Node configuration: fixed bug in MA_WS service ping <br>
+Mapping Handler: category schema page optimization <br>
+Meta Manager: read-only access to the Category Schemes and Dataflow page <br>
+Mapping Handler: fixed ma_ws service bug in creating content constraints <br>
+Fixed bug in loading data in sdmx-ml format <br>
+Mapping Handler: fixed bug in creation a new DDB connection using 'MDM Database' option <br>
+Node Configuration: passwords saved in encrypted mode <br>
+Automatic encryption of plaintext passwords when the application starts <br>
+Dataflow publishing: the error message when updating the Databrowser cache appears only if the "Allow cache update" option is selected <br>
+Setup wizard: fixed bug when clicking "Initialize MSDB" button  <br>
+Node Configuration: fixed password field display error  <br>
+DataBrowser configuration: fixed error when entering proxy port value  <br>
+Mapping Handler: optimization in Dataflow page display  <br>
+Security: Implemented management of allowed origins for CORS in the METADATA_API service  <br>
+Security: Fixed sql injection error in DM_API_WS/AuthDBCore/BaseDBConnector.cs  <br>
+Fixed bug in case of empty password of the RunAsAdmin account  <br>
+Added the 'Last update' button to the 'Dataflow Builder' page for updating the date of last modification of selected dataflows <br>
+Update of 'last update' field has been removed when loading data with embargo <br>
+Fixed error in downloading by Excel2Report plugin <br>
+Loader: possibility to review associated dataflows after updating the cube by plugin <br>
+Fixed bug in saving node configuration <br>
+The selection of items in the 'Dataflow Builder' page has been optimized <br>
+Fixed bug in item selection on Utilities -> Import Structures page <br>
+
+
 ## Version 2.1.25 (Release Date: October 8, 2024)
 MDM v.2.1.25 (.NET 6) <br>
 Release Date: 8 October 2024 <br>
